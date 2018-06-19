@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!--<dimen name="activity_horizontal_margin">16dp</dimen>-->
+    <!--<dimen name="device_ir_remote_hint_width">20dp</dimen>-->
+    <!--<dimen name="activity_vertical_margin">16dp</dimen>-->
+    <!--<dimen name="list_item_device_type_frame_height">200dp</dimen>-->
+    <dimen name="touch_raise">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="left_drawer_width">50dp</dimen>
+    <dimen name="left_drawer_item_margin">15dp</dimen>
+    <!--login-->
+    <dimen name="login_edit_text_margin_top">10dp</dimen>
+    <dimen name="login_edit_text_margin_side">30dp</dimen>
+    <dimen name="login_edit_text_padding">5dp</dimen>
+    <dimen name="login_config_btn_margin">10dp</dimen>
+    <dimen name="login_logo_margin_top">50dp</dimen>
+    <dimen name="login_logo_margin_bottom">40dp</dimen>
+    <dimen name="loin_local_margin_top">21.3dp</dimen>
+    <dimen name="loin_local_margin_left">22dp</dimen>
+    <dimen name="loin_local_margin_bottom">10.7dp</dimen>
+    <dimen name="loin_remote_margin_bottom">42.7dp</dimen>
+    <dimen name="loin_local_margin_right">27.3dp</dimen>
+
+    <dimen name="login_user_margin_left">24.7dp</dimen>
+    <dimen name="login_user_margin_bottom">10.7dp</dimen>
+    <dimen name="login_user_margin_top">21.3dp</dimen>
+    <dimen name="login_user_margin_right">18.7dp</dimen>
+
+
+    <dimen name="continue_button_margin_bottom">56dp</dimen>
+    <dimen name="continue_button_margin_left">23.3dp</dimen>
+    <dimen name="continue_button_margin_top">42.7dp</dimen>
+
+
+    <!--config-->
+    <dimen name="config_edit_text_margin_top">10dp</dimen>
+    <dimen name="config_edit_text_margin_side">30dp</dimen>
+    <dimen name="config_edit_text_padding">5dp</dimen>
+    <dimen name="config_logo_margin_top">50dp</dimen>
+    <dimen name="config_logo_margin_bottom">10dp</dimen>
+    <!--add device view-->
+    <dimen name="add_remove_device_to_item_header_height">30dp</dimen>
+    <dimen name="add_remove_device_to_item_margin_left">10dp</dimen>
+    <dimen name="add_remove_device_to_item_text_size">12sp</dimen>
+    <dimen name="add_remove_device_to_item_indicator_side">20dp</dimen>
+    <dimen name="add_remove_device_to_item_indicator_margin_rigth">10dp</dimen>
+    <dimen name="list_frame_margin_vertical">3dp</dimen>
+    <dimen name="list_frame_margin_horizontal">10dp</dimen>
+    <!--add_device_to_item_list_item-->
+    <dimen name="add_device_to_group_profile_item_height">50dp</dimen>
+    <dimen name="item_image_side">30dp</dimen>
+    <dimen name="item_image_margin_left">10dp</dimen>
+    <dimen name="item_name_margin_left">20dp</dimen>
+    <dimen name="item_name_text_size">12sp</dimen>
+    <dimen name="item_check_margin_right">20dp</dimen>
+    <!--entity list item-->
+
+    <dimen name="item_list_dropdown_button_margin_right">15dp</dimen>
+    <dimen name="item_list_dropdown_button_margin">10dp</dimen>
+    <!--devices_list_item-->
+    <dimen name="device_list_item_check_box_width">35dp</dimen>
+    <dimen name="devices_list_item_height">100dp</dimen>
+    <dimen name="device_select_margin_right">10dp</dimen>
+    <dimen name="device_type_image_side">50dp</dimen>
+    <dimen name="device_name_text_margin_left">10dp</dimen>
+    <dimen name="device_name_text_size">14sp</dimen>
+    <dimen name="device_group_text_size">10sp</dimen>
+    <dimen name="device_toggle_margin_left">10dp</dimen>
+    <dimen name="device_online_margin_right">10dp</dimen>
+    <dimen name="device_connection_text_size">10sp</dimen>
+    <dimen name="device_ir_text_size">10sp</dimen>
+    <!--group list item-->
+    <dimen name="group_list_item_check_box_width">35dp</dimen>
+    <dimen name="group_list_item_height">100dp</dimen>
+    <dimen name="sub_group_left_indicator_width">10dp</dimen>
+    <dimen name="group_select_margin_right">10dp</dimen>
+    <dimen name="group_type_image_side">50dp</dimen>
+    <dimen name="group_name_text_margin_left">10dp</dimen>
+    <dimen name="group_name_text_size">14sp</dimen>
+    <dimen name="group_owner_text_size">10sp</dimen>
+    <dimen name="group_group_text_size">10sp</dimen>
+    <dimen name="group_toggle_margin_left">10dp</dimen>
+    <dimen name="group_online_margin_right">10dp</dimen>
+    <dimen name="group_connection_text_size">10sp</dimen>
+    <dimen name="group_ir_text_size">10sp</dimen>
+    <dimen name="group_button_margin_right">10dp</dimen>
+    <dimen name="group_button_margin_top">10dp</dimen>
+    <!--profiles list item-->
+    <dimen name="profile_list_item_check_box_width">35dp</dimen>
+    <dimen name="profiles_list_item_height">100dp</dimen>
+    <dimen name="profile_select_margin_right">10dp</dimen>
+    <dimen name="profile_type_image_side">50dp</dimen>
+    <dimen name="profile_name_text_margin_left">10dp</dimen>
+    <dimen name="profile_name_text_size">14sp</dimen>
+    <dimen name="profile_group_text_size">10sp</dimen>
+    <dimen name="profile_toggle_margin_left">10dp</dimen>
+    <dimen name="profile_online_margin_right">10dp</dimen>
+    <dimen name="profile_connection_text_size">10sp</dimen>
+    <dimen name="profile_ir_text_size">10sp</dimen>
+    <!--event list item-->
+    <dimen name="event_name_text_size">14sp</dimen>
+    <dimen name="event_time_text_size">10sp</dimen>
+    <!--node list item-->
+    <dimen name="node_list_item_height">100dp</dimen>
+    <dimen name="node_name_text_margin_left">10dp</dimen>
+    <dimen name="node_name_text_size">14sp</dimen>
+    <dimen name="node_type_image_side">50dp</dimen>
+    <dimen name="node_select_margin_right">10dp</dimen>
+    <dimen name="node_group_text_size">10sp</dimen>
+    <dimen name="node_toggle_margin_left">10dp</dimen>
+    <dimen name="node_button_margin_right">10dp</dimen>
+    <dimen name="node_button_margin_top">10dp</dimen>
+    <!--sensors list item-->
+    <dimen name="sensors_list_item_height">100dp</dimen>
+    <dimen name="sensor_select_margin_right">10dp</dimen>
+    <dimen name="sensor_type_image_side">50dp</dimen>
+    <dimen name="sensor_name_text_size">14sp</dimen>
+    <dimen name="sensor_name_text_margin_left">10dp</dimen>
+    <!--alarms list item-->
+    <dimen name="alarm_list_item_check_box_width">35dp</dimen>
+    <dimen name="alarm_list_item_height">100dp</dimen>
+    <dimen name="alarm_select_margin_right">10dp</dimen>
+    <dimen name="alarm_type_image_side">50dp</dimen>
+    <dimen name="alarm_name_text_margin_left">10dp</dimen>
+    <dimen name="alarm_name_text_size">14sp</dimen>
+    <dimen name="alarm_content_text_size">10sp</dimen>
+    <dimen name="alarm_toggle_margin_left">10dp</dimen>
+    <dimen name="alarm_stop_text_size">18sp</dimen>
+
+    <!--dialog_add_device_to_item-->
+    <dimen name="dialog_height">300dp</dimen>
+    <dimen name="tabhost_height">250dp</dimen>
+    <!--edit_devices_type_grid_item-->
+    <dimen name="edit_device_grid_item_height">71dp</dimen>
+    <!--fragment devices list-->
+    <dimen name="filter_scroll_padding_vertical">10dp</dimen>
+    <dimen name="filter_item_side">25dp</dimen>
+    <dimen name="filter_item_margin_horizontal">15dp</dimen>
+    <dimen name="devices_list_padding">10dp</dimen>
+    <!--fragment_edit device_-->
+
+    <dimen name="spinner_item_height">45dp</dimen>
+    <dimen name="edit_device_spinner_height">40dp</dimen>
+    <dimen name="linear_height">45dp</dimen>
+
+    <dimen name="edit_device_spinner_margin_left">100dp</dimen>
+    <dimen name="edit_device_header_text_size">16sp</dimen>
+    <dimen name="edit_device_hint_text_size">12sp</dimen>
+    <dimen name="edit_device_name_margin">10dp</dimen>
+    <dimen name="edit_device_text_header_padding_vertical">5dp</dimen>
+    <dimen name="edit_device_item_margin_top">15dp</dimen>
+    <dimen name="edit_device_type_margin_top">15dp</dimen>
+    <dimen name="edit_device_type_text_size">16sp</dimen>
+    <dimen name="edit_device_type_radio_width">130dp</dimen>
+    <dimen name="edit_device_type_radio_height">120dp</dimen>
+    <dimen name="edit_device_port_text_size">12sp</dimen>
+    <dimen name="add_device_to_group_margin_top">5dp</dimen>
+    <dimen name="add_device_to_profile_margin_top">15dp</dimen>
+    <dimen name="assign_device_to_user_margin_top">15dp</dimen>
+    <dimen name="list_item_device_type_frame_height">200dp</dimen>
+
+    <dimen name="edit_device_radio_item_spacing">5dp</dimen>
+    <dimen name="dash_device_filter_spacing">17dp</dimen>
+    <dimen name="dash_device_filter_height">17dp</dimen>
+    <dimen name="dash_device_filter_side">35dp</dimen>
+
+    <!--edit group-->
+
+    <dimen name="add_group_to_group_margin_top">15dp</dimen>
+    <dimen name="add_group_to_profile_margin_top">15dp</dimen>
+    <dimen name="edit_group_header_text_size">16sp</dimen>
+    <dimen name="edit_group_hint_text_size">12sp</dimen>
+    <dimen name="edit_group_name_margin">10dp</dimen>
+    <dimen name="edit_group_text_header_padding_vertical">5dp</dimen>
+    <dimen name="edit_group_item_margin_top">15dp</dimen>
+    <dimen name="edit_group_type_margin_top">15dp</dimen>
+    <dimen name="edit_group_type_text_size">16sp</dimen>
+    <dimen name="edit_group_type_radio_width">130dp</dimen>
+    <dimen name="edit_group_type_radio_height">120dp</dimen>
+    <dimen name="edit_group_port_text_size">12sp</dimen>
+    <dimen name="edit_group_radio_item_spacing">8dp</dimen>
+
+    <!--edit profile-->
+    <dimen name="edit_profile_header_text_size">16sp</dimen>
+    <dimen name="edit_profile_hint_text_size">12sp</dimen>
+    <dimen name="edit_profile_name_margin">10dp</dimen>
+    <dimen name="edit_profile_text_header_padding_vertical">5dp</dimen>
+    <dimen name="edit_profile_item_margin_top">15dp</dimen>
+    <dimen name="edit_profile_type_margin_top">15dp</dimen>
+
+    <dimen name="edit_profile_add_device_to_group_margin_top">15dp</dimen>
+    <dimen name="edit_profile_add_group_to_profile_margin_top">15dp</dimen>
+    <dimen name="event_name_margin_top">15dp</dimen>
+    <dimen name="event_pick_margin_left">20dp</dimen>
+    <dimen name="event_name_margin_left">10dp</dimen>
+    <dimen name="edit_profile_type_text_size">16sp</dimen>
+    <dimen name="edit_profile_type_radio_width">130dp</dimen>
+    <dimen name="edit_profile_type_radio_height">120dp</dimen>
+    <dimen name="edit_profile_port_text_size">12sp</dimen>
+    <dimen name="edit_profile_radio_item_spacing">8dp</dimen>
+
+    <!--edit node-->
+    <dimen name="edit_node_header_text_size">16sp</dimen>
+    <dimen name="edit_node_hint_text_size">16sp</dimen>
+    <dimen name="edit_node_name_margin">10dp</dimen>
+    <dimen name="edit_node_text_header_padding_vertical">5dp</dimen>
+    <dimen name="edit_node_item_margin_top">15dp</dimen>
+    <dimen name="edit_node_spinner_height">30dp</dimen>
+    <dimen name="edit_node_spinner_container_height">50dp</dimen>
+    <dimen name="edit_node_spinner_width">150dp</dimen>
+    <dimen name="edit_node_port_text_size">12sp</dimen>
+
+    <!--edit alarm-->
+    <dimen name="alarm_type_select_spacing">17dp</dimen>
+    <dimen name="edit_alarm_radio_item_spacing">5dp</dimen>
+
+    <dimen name="edit_alarm_header_text_size">16sp</dimen>
+    <dimen name="edit_alarm_name_margin">12dp</dimen>
+    <dimen name="edit_alarm_text_header_padding_vertical">5dp</dimen>
+    <dimen name="edit_alarm_item_margin_top">15dp</dimen>
+    <dimen name="edit_alarm_hint_text_size">12sp</dimen>
+    <dimen name="edit_alarm_sms_text_height">150dp</dimen>
+
+    <dimen name="edit_alarm_sound_user_name_text_size">10sp</dimen>
+    <dimen name="edit_alarm_sound_button_height">50dp</dimen>
+    <dimen name="edit_alarm_sound_button_width">170dp</dimen>
+    <dimen name="edit_alarm_sound_button_inner_height">45dp</dimen>
+    <dimen name="edit_alarm_sound_button_inner_width">165dp</dimen>
+    <dimen name="edit_alarm_sound_button_margin">10dp</dimen>
+    <!--sensor options-->
+    <dimen name="sensor_options_text_size">12sp</dimen>
+    <dimen name="sensor_options_radio_margin_left">30dp</dimen>
+    <dimen name="motion_sensor_options_run_after_margin_top">15dp</dimen>
+    <!--fragment_ir_device-->
+    <dimen name="device_ir_remote_hint_width">20dp</dimen>
+    <!--fragment ac-->
+    <dimen name="temprature_container_height">220dp</dimen>
+    <!--fragment ah-->
+    <dimen name="device_gesture_area_height">300dp</dimen>
+    <dimen name="device_gesture_area_width">300dp</dimen>
+    <!--fragment amplifier-->
+    <dimen name="ir_up_btn_width_fc">20dp</dimen>
+    <dimen name="ir_up_btn_height_fc">15dp</dimen>
+    <dimen name="ir_arr_btn_container_side_fc">130dp</dimen>
+    <dimen name="ir_ok_btn_side_fc">75dp</dimen>
+
+
+    <!--<dimen name="ir_up_btn_width_fc">16dp</dimen>-->
+    <!--<dimen name="ir_up_btn_height_fc">11dp</dimen>-->
+    <!--<dimen name="ir_arr_btn_container_side_fc">100dp</dimen>-->
+    <!--<dimen name="ir_ok_btn_side_fc">57dp</dimen>-->
+
+    <dimen name="ir_width_fc">45dp</dimen>
+    <dimen name="ir_height_fc">31dp</dimen>
+    <dimen name="ir_width">63dp</dimen>
+    <dimen name="ir_height">48dp</dimen>
+    <dimen name="ir_margin">5dp</dimen>
+    <dimen name="ir_text_size">6sp</dimen>
+    <!--camera-->
+    <dimen name="cam_margin">0dp</dimen>
+    <dimen name="cam_width">640px</dimen>
+    <!--group content-->
+    <dimen name="group_device_gesture_area_width">200dp</dimen>
+
+    <dimen name="group_device_gesture_area_height">200dp</dimen>
+    <dimen name="group_sub_device_height">500dp</dimen>
+    <dimen name="group_sub_device_check_margin">15dp</dimen>
+
+    <!--sub group dev-->
+    <dimen name="sub_device_margin_horzontal">20dp</dimen>
+    <dimen name="sub_sub_margin">20dp</dimen>
+    <dimen name="sub_sub_padding_horizontal">10dp</dimen>
+    <dimen name="sub_sub_padding_bottom">2dp</dimen>
+
+    <!--calendar-->
+
+    <dimen name="calendar_cell_border_width">0.1dp</dimen>
+    <dimen name="calendar_cell_margin">-0.1dp</dimen>
+    <dimen name="calendar_horizontal_padding">-5dp</dimen>
+    <dimen name="calendar_matrix_margin">10dp</dimen>
+    <dimen name="calendar_cell_padding">5dp</dimen>
+    <dimen name="calendar_sep_1">40dp</dimen>
+    <dimen name="calendar_sep_2">20dp</dimen>
+    <dimen name="cell_dimen_width">50dp</dimen>
+    <dimen name="cell_dimen_height">40dp</dimen>
+    <dimen name="cal_week_day_text_size">9sp</dimen>
+    <dimen name="cal_day_text_size">10sp</dimen>
+    <!--events-->
+
+    <dimen name="events_list_header_padding_vertical">5dp</dimen>
+    <dimen name="events_list_header_margin">10dp</dimen>
+    <dimen name="events_list_header_text_size">16sp</dimen>
+    <dimen name="events_list_padding">10dp</dimen>
+    <dimen name="events_list_item_height">70dp</dimen>
+    <!--edit event-->
+    <dimen name="edit_event_header_text_size">16sp</dimen>
+    <dimen name="edit_event_hint_text_size">12sp</dimen>
+    <dimen name="edit_event_name_margin">10dp</dimen>
+    <dimen name="edit_event_text_header_padding_vertical">5dp</dimen>
+    <dimen name="edit_event_separator_margin_top">30dp</dimen>
+    <dimen name="edit_event_spinner_margin_left">200dp</dimen>
+    <dimen name="edit_event_spinner_height">40dp</dimen>
+    <!--Create user-->
+    <dimen name="create_user_image_size">50dp</dimen>
+    <!--settings-->
+    <dimen name="settings_user_name_margin">10dp</dimen>
+    <dimen name="settings_user_text_header_padding_vertical">5dp</dimen>
+    <dimen name="settings_user_header_text_size">16sp</dimen>
+    <!--favourites-->
+    <dimen name="fav_ch_name_text_size">14sp</dimen>
+    <dimen name="fav_horizontal_list_item_side">45dp</dimen>
+    <dimen name="fav_vertical_list_item_side">40dp</dimen>
+    <dimen name="tab_step_divider_width">40dp</dimen>
+    <dimen name="profile_image_margin_start">18dp</dimen>
+    <dimen name="available_device_margin_left">48dp</dimen>
+    <dimen name="profile_image_width">88dp</dimen>
+    <dimen name="profile_image_height">88dp</dimen>
+    <dimen name="username_margin_left">32dp</dimen>
+    <dimen name="profile_image_margin_left">16dp</dimen>
+    <dimen name="available_device_margin_top">6.7dp</dimen>
+    <dimen name="divider_margin_top">3.3dp</dimen>
+    <dimen name="divider_margin_bottom">11.3dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+</resources>

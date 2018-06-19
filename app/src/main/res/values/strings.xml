@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Smart Power Demo</string>
+    <string name="sign_in_to_your_account">sign in to your account</string>
+    <string name="forgot_my_password">forgot my password</string>
+    <string name="keep_me_signed_in">keep me signed in</string>
+    <string name="password_hint">password hint</string>
+    <string name="username_or_email">username or email</string>
+    <string name="demo_mode">demo mode</string>
+</resources>

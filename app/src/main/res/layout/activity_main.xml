@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45.3dp"
+            android:layout_marginRight="93dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/sign_in_to_your_account"
+            android:textColor="@color/white_text"
+            android:textSize="27sp" />
+    </LinearLayout>
+
+    <android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:id="@+id/login_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/login_edit_text_margin_top"
+            android:layout_marginRight="@dimen/login_edit_text_margin_top"
+            android:layout_marginTop="@dimen/login_edit_text_margin_top"
+            android:background="@color/white_text"
+            android:orientation="vertical">
+            <EditText
+                android:inputType="textCapWords"
+                android:imeOptions="actionNext"
+                android:id="@+id/login_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/login_user_margin_bottom"
+                android:layout_marginLeft="@dimen/login_user_margin_left"
+                android:layout_marginRight="@dimen/login_user_margin_right"
+                android:layout_marginTop="@dimen/login_user_margin_top"
+                android:drawableLeft="@drawable/ic_user"
+                android:drawablePadding="5dp"
+                android:fontFamily="sans-serif"
+                android:hint="@string/username_or_email"
+                android:nextFocusRight="@+id/login_password" />
+
+            <EditText
+                android:id="@+id/login_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/login_user_margin_bottom"
+                android:layout_marginLeft="@dimen/login_user_margin_left"
+                android:layout_marginRight="@dimen/login_user_margin_right"
+                android:drawableLeft="@drawable/ic_password"
+                android:drawablePadding="5dp"
+                android:fontFamily="sans-serif"
+                android:hint="@string/password_hint"
+                android:inputType="textPassword"
+                android:nextFocusRight="@+id/login_button" />
+
+            <CheckBox
+                android:id="@+id/rememberMe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/loin_local_margin_right"
+                android:layout_marginLeft="28.4dp"
+                android:checked="false"
+                android:text="@string/keep_me_signed_in" />
+
+
+            <!--
+                    //TODO:This might cause a problem
+            -->
+            <TextView
+                android:gravity="center"
+                android:id="@+id/forgot_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/continue_button_margin_bottom"
+                android:text="@string/forgot_my_password" />
+
+
+        </LinearLayout>
+        <android.support.design.widget.FloatingActionButton
+            app:layout_anchor="@id/login_linear_layout"
+            app:layout_anchorGravity="bottom|center"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@color/red_action_bar"
+            android:src="@drawable/ic_arrow_right"
+            />
+
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>
